@@ -4,7 +4,7 @@ pipeline {
     agent any
     triggers { pollSCM('* * * * *') }
     
-    tools {nodejs "NodeJS-21.2.0"}
+    tools {nodejs "node"}
     environment {
         CI = 'true'
     }
