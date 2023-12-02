@@ -33,7 +33,7 @@ pipeline {
         }
         stage('Deploy for production') {
             when {
-                branch 'master'  
+                branch 'main'  
             }
             steps {
                 sh 'pwd'
